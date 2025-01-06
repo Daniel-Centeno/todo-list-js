@@ -14,3 +14,11 @@ function addTask(){
     li.appendChild(deleteButton);
     todoList.appendChild(li);
 }
+
+input.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter' && input.value.trim() !== '') {
+        const task = input.value.trim();
+        addTask(task);
+        input.value = '';
+    }
+});
