@@ -1,7 +1,7 @@
 const input = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
 
-function addTask(){
+function addTask(task){
     const li = document.createElement('li');
     li.textContent = task;
 
