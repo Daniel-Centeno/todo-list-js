@@ -41,3 +41,16 @@ li {
     justify-content: space-between;
     align-items: center;
 }
+
+button {
+    background-color: #d64545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a93939;
+}
